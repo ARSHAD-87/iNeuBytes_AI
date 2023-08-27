@@ -9,8 +9,6 @@ y=iris['petal_length']
 X_train, X_test, y_train, y_test = train_test_split(
   X,y , random_state=104,test_size=0.25, shuffle=True)
  
-# printing out train and test sets
- 
 print('X_train : ')
 print(X_train.head())
 print(X_train.shape)
